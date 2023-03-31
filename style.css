@@ -1,0 +1,12 @@
+.links{
+
+    float: right;
+
+}
+.links a{
+    text-decoration: none;
+    word-spacing: 1rem;
+}
+header{
+    font-size: 2rem;
+}
