@@ -9,4 +9,16 @@
 }
 header{
     font-size: 2rem;
+    padding: 0.5em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+section{
+
+    font-family: 'PT Sans', sans-serif;
+}
+.quote{
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+
 }
