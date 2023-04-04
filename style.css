@@ -1,3 +1,6 @@
+html{
+    border: 0 0 0 0;
+}
 .links{
 
     float: right;
@@ -8,5 +11,78 @@
     word-spacing: 1rem;
 }
 header{
-    font-size: 2rem;
+    font-size: 3rem;
+    padding-top: 0.5em;
+    padding: 0.5em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+main{
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+.quote{
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 1.5rem;
+
+}
+/* footer{
+    text-align: center;
+    word-spacing: 1em;
+    bottom: 0;
+    width: 100%;
+    /* position: fixed; 
+    padding-bottom: 20px; 
+    
+} */
+
+/* footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 64px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 -2px 4px -2px ;
+  } */
+.twitter{
+   color: #1DA1F2;
+   
+}
+.github{
+    color: #171515;
+}
+.linkedin{
+    color: #0A66C2;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    margin-top: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    word-spacing: .5em;
+  }
+footer{
+    border-top:0.3px  dotted black;
+}
+header{
+    border-bottom: 1px dotted black;
+}
+/* background-image linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+} */
+
+body{
+    background: linear-gradient(to bottom, #FFDAB9, #FFA07A);
+
 }
