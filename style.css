@@ -1,6 +1,9 @@
-html{
-    border: 0 0 0 0;
+css{
+    margin: 0;
 }
+/* html{
+    border: 0 0 0 0;
+} */
 .links{
 
     float: right;
@@ -9,7 +12,11 @@ html{
 .links a{
     text-decoration: none;
     word-spacing: 1rem;
+      
 }
+a:hover {
+    text-decoration: underline;
+  }
 header{
     font-size: 3rem;
     padding-top: 0.5em;
@@ -69,20 +76,19 @@ body {
   footer {
     margin-top: auto;
     padding-top: 20px;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     text-align: center;
     word-spacing: .5em;
   }
 footer{
-    border-top:0.3px  dotted black;
+    display: flex;
+    justify-content: center;
 }
 header{
     border-bottom: 1px dotted black;
+    padding: 2px;
 }
-/* background-image linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
-} */
 
 body{
-    background: linear-gradient(to bottom, #FFDAB9, #FFA07A);
-
+    background: #d5def5; 
 }
