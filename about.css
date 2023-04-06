@@ -33,6 +33,7 @@ img{
     border-radius: 50%;
     float: left;
     margin: auto;
+    margin-top: 2px;
 }
 p{
     margin-top: 20px;
@@ -50,6 +51,27 @@ main{
 body{
     background: #d5def5; 
 }
+html, body {padding:0;
+             margin:0; 
+             height:100%;
+}
+footer{position: absolute; 
+       bottom: 0;
+       left: 0; 
+       right: 0;
+}
+.jrehr{
+    margin-top: 0px;
+}
+nav{
+    font-size: 3rem;
+    padding-top: 0.5em;
+    padding: 0.5em;
+    font-family: 'PT Sans', sans-serif;
+    border-bottom: 1px dotted black;
+    padding: 2px;
+}
+
 
 
   
