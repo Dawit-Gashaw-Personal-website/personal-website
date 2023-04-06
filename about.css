@@ -1,0 +1,55 @@
+.profile-pic:hover{
+    transform: scalex(-1);
+}
+.profile-pic{
+    height: 200px;
+    width: 200px;
+}
+.twitter{
+    color: #1DA1F2;
+    
+ }
+ .github{
+     color: #171515;
+ }
+ .linkedin{
+     color: #0A66C2;
+ }
+ footer{
+    display: flex;
+    justify-content: center;
+    height: auto;
+ }
+ .links{
+
+    float: right;
+
+}
+.links a{
+    text-decoration: none;
+    word-spacing: 1rem;
+}
+img{
+    border-radius: 50%;
+    float: left;
+    margin: auto;
+}
+p{
+    margin-top: 20px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+main{
+    padding: 5px;
+}  
+body{
+    background: #d5def5; 
+}
+
+
+  
