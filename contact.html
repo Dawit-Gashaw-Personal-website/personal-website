@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- linked some fonts -->
     <script src="https://kit.fontawesome.com/fca7cc8a5a.js" crossorigin="anonymous"></script>
-    
+    <!-- linked javascript -->
+    <script src="script.js"></script>
 </head>
 <body>
 
-    
     <header>
         <span class="name">Dawit Gashaw</span>
 
@@ -20,18 +21,24 @@
             <a href="about.html">ABOUT</a>
             <a href="portfolio.html">PORTFOLIO</a>
             <a href="contact.html">CONTACT</a>
-
         </nav>
     </header>
+
     <main>
-    <h1>Here are a list of some of the works that i have done so far</h1>
-    <h2>work in progress</h2>
-    <p>please check my github for more details.</p>
+        <form method="POST">
+            <label for="FULL NAME">Full Name</label>
+            <input type="text" placeholder="FULL-NAME"><br>
+            <label for="Email">Email-</label>
+            <input type="email" placeholder="email address"><br>
+            <label for="Message">Message</label>
+            <textarea name="message" id="Message" cols="50" rows="5"></textarea><br>
+
+            <input type="submit">
+
+            
+
+        </form>
     </main>
-    <br>
-    <br>
-    <br>
-    <br>
 
     <footer>
         <a class="github" href="https://github.com/yepdawit"><i class="fa-brands fa-github fa-beat fa-2xl"></i></a>
@@ -41,6 +48,6 @@
         <a class="twitter" href="https://www.twitter.com/home"><i class="fa-brands fa-twitter fa-bounce fa-2xl"></i></a>
         
       </footer>
-
+    
 </body>
 </html>
