@@ -92,3 +92,15 @@ header{
 body{
     background: #d5def5; 
 }
+
+/* style for contact form */
+form{
+    display: flex;
+    /* align-items: center; */
+    flex-direction:column ;
+}
+
+/* #message{
+    margin: 1px;
+
+} */
