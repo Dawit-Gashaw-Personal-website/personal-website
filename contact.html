@@ -1,53 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- linked some fonts -->
-    <script src="https://kit.fontawesome.com/fca7cc8a5a.js" crossorigin="anonymous"></script>
-    <!-- linked javascript -->
-    <script src="script.js"></script>
-</head>
-<body>
-
+    <script
+      src="https://kit.fontawesome.com/fca7cc8a5a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <span class="name">Dawit Gashaw</span>
+      <span class="name">Dawit Gashaw</span>
 
-        <nav class="links">
-            <a href="index.html">HOME</a>
-            <a href="about.html">ABOUT</a>
-            <a href="portfolio.html">PORTFOLIO</a>
-            <a href="contact.html">CONTACT</a>
-        </nav>
+      <nav class="links">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
     </header>
 
     <main>
-        <form>
-            <label for="FULL NAME">Full Name</label>
-            <input type="text" placeholder="FULL-NAME"><br>
-            <label for="Email">Email</label>
-            <input type="email" placeholder="email address"><br>
-            <label for="Message">Message</label>
-            <textarea name="message" id="Message" cols="50" rows="5"></textarea><br>
+      <form>
+        <label for="full-name">Full Name:</label>
+        <input
+          type="text"
+          id="full-name"
+          name="full-name"
+          placeholder="Enter your full name"
+          required
+        /><br />
 
-            <input id="submit" type="submit">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        /><br />
 
-            
+        <label for="message">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Enter your message"
+          required
+        ></textarea
+        ><br />
 
-        </form>
+        <button id="submit" type="Submit">Submit</button>
+      </form>
+
+      <!-- linked javascript -->
+      <script src="script.js"></script>
     </main>
 
     <footer>
-        <a class="github" href="https://github.com/yepdawit"><i class="fa-brands fa-github fa-beat fa-2xl"></i></a>
-    
-        <a class=linkedin href="https://www.linkedin.com/in/dawit-gashaw-19810b22a/"><i class="fa-brands fa-linkedin fa-shake fa-2xl"></i></a>
-    
-        <a class="twitter" href="https://www.twitter.com/home"><i class="fa-brands fa-twitter fa-bounce fa-2xl"></i></a>
-        
-      </footer>
-    
-</body>
+      <a class="github" href="https://github.com/yepdawit"
+        ><i class="fa-brands fa-github fa-beat fa-2xl"></i
+      ></a>
+
+      <a
+        class="linkedin"
+        href="https://www.linkedin.com/in/dawit-gashaw-19810b22a/"
+        ><i class="fa-brands fa-linkedin fa-shake fa-2xl"></i
+      ></a>
+
+      <a class="twitter" href="https://www.twitter.com/home"
+        ><i class="fa-brands fa-twitter fa-bounce fa-2xl"></i
+      ></a>
+    </footer>
+  </body>
 </html>
